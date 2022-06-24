@@ -30,17 +30,17 @@ main img{
 footer{
     grid-area: footer;
     padding: 10px;
-    background-color: rgb(190, 87, 216);
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    background-image: linear-gradient(to top, rgb(190, 87, 216), rgb(219, 164, 233));
 }
 
 .barraNavegacion{
     width: 100%;
     margin: 0;
-    background-color: rgb(190, 87, 216);
     position: sticky;
+    background-image: linear-gradient(to bottom,rgb(190, 87, 216), rgb(219, 164, 233));
 }
 
 .barraNavegacion ul {
