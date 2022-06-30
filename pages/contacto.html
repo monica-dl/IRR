@@ -13,20 +13,33 @@
 
 <body class="conatiner-fluid">
 
-        <header>
-            <nav class="barraNavegacion">
-                <ul>
-                    <li><a href="../index.html">Inicio</a> </li>
-                    <li><a href="./quienesSomos.html">Quiénes somos</a> </li>
-                    <li><a href="./danza.html">Danza</a> </li>
-                    <li><a href="./artesEscenicas.html">Artes Escénicas</a> </li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <form action="consulta.php" method="get" >
-                <fieldset class="formularioContacto">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light barraNavegacion">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"> 
+            <img src="../assets/images/iRR - logo.png" alt="" width="60" height="30">  
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link" href="./quienesSomos.html">Quiénes somos</a>
+                <a class="nav-link" href="./danza.html">Danza</a>
+                <a class="nav-link" href="./artesEscenicas.html">Artes Escénicas</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <header>
+
+    </header>
+    
+    <main>
+        <form action="consulta.php" method="get" >
+            <fieldset class="formularioContacto">
                     <legend>Hacenos tu consulta</legend>
                     <div>
                         <label for="nombre">Nombre: </label>
@@ -62,13 +75,13 @@
                         <input class="boton" type="submit" value="Enviar">
                         <input class="boton" type="reset" value="Limpiar">
                     </div>                                    
-                </fieldset>           
-            </form>
+            </fieldset>           
+        </form>
             <div>
                 <h4>Visitanos en Alameda de la Federación 429 - Paraná, Entre Ríos</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13574.879280262421!2d-60.5330475!3d-31.7235477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7439cd8fe877b316!2sInstituto%20Rita%20Riso!5e0!3m2!1ses!2sar!4v1653998204302!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </main>
+    </main>
 
         <footer>
             <div>
