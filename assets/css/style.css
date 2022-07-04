@@ -58,7 +58,7 @@ footer{
 
     .barraNavegacion ul li{
         display: block;
-        padding: 5px;
+        padding: 6px;
         font-size: small;
         color: white;
     }
@@ -71,7 +71,6 @@ footer{
         width: 10px;
     }
 }
-
 
 @media (max-width:480px){
 
