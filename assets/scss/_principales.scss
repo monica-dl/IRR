@@ -1,0 +1,26 @@
+main{
+    background-color:  $color-fondo;
+}
+
+.danza{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    place-items: center;
+    padding-left: 10px;
+}
+
+.danzaTitulo{
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+}
+
+.danzaTexto{
+    font-size: 15px;
+}
+.qsMain{
+    background-image:url("../images/iRR_8.jpg");  
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}

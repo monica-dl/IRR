@@ -1,0 +1,12 @@
+footer{
+    grid-area: footer;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-image: linear-gradient(to top, $color-inicio-gradiente, $color-final-gradiente);
+}
+
+.iconosRedes{
+    width: 15px;
+}

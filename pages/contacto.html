@@ -37,57 +37,48 @@
 
     </header>
     
-    <main>
-        <form action="consulta.php" method="get" >
-            <fieldset class="formularioContacto">
-                    <legend>Hacenos tu consulta</legend>
-                    <div>
+    <main class="container-fluid">
+        <div class="row justify-content-around ">
+            <div class="col-11 col-md-5 border mb-3 mt-3">
+                <form action="consulta.php" method="get" >
+                    <fieldset class="formularioContacto">
+                        <h5>Hacenos tu consulta</h5>
                         <label for="nombre">Nombre: </label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre" required>
-                    </div>
-                    <br>
-                    <div>
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingresá tu nombre" required>
                         <label for="apellido">Apellido: </label>
-                        <input type="text" name="apellido" id="apellido" placeholder="Ingresá tu apellido" required>
-                    </div>
-                    <br>
-                    <div>
+                        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingresá tu apellido" required>
                         <label for="genero">Seleccioná el género sobre el cual consultás:</label>
-                        <select name="genero" id="genero" >
+                        <select class="list-group" name="genero" id="genero">
                             <option value="b">Ballet</option>
                             <option value="j">Jazz</option>
                             <option value="cm">Comedia Musical</option>
-                            <option value="c">Canto</option>
+                            <option value="ru">Ritmos Urbanos</option>
                             <option value="t">Acrobacias en tela</option>
                         </select>
-                    </div>
-                    <br>
-                    <div>
                         <label for="correo">Correo electrónico: </label>
-                        <input type="email" name="correo" id="correo" placeholder="Ingresá tu dirección de correo electrónico" required>
-                    </div>                    
-                    <br>
-                    <div>
-                        <textarea name="consulta" id="consulta" cols="30" rows="10">Escribí tu consulta</textarea>
-                    </div>    
-                    <br>
-                    <div>
-                        <input class="boton" type="submit" value="Enviar">
-                        <input class="boton" type="reset" value="Limpiar">
-                    </div>                                    
-            </fieldset>           
-        </form>
-            <div>
-                <h4>Visitanos en Alameda de la Federación 429 - Paraná, Entre Ríos</h4>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13574.879280262421!2d-60.5330475!3d-31.7235477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7439cd8fe877b316!2sInstituto%20Rita%20Riso!5e0!3m2!1ses!2sar!4v1653998204302!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <input type="email" class="form-control" name="correo" id="correo"
+                            placeholder="Ingresá tu dirección de correo electrónico" required>
+                        <textarea class="form-control mt-2" name="consulta" id="consulta" cols="30" rows="10">Escribí tu consulta</textarea>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-2 mb-2">
+                            <input class="btn btn-outline-dark" type="submit" value="Enviar">
+                            <input class="btn btn-outline-dark" type="reset" value="Limpiar">
+                        </div>
+                    </fieldset>           
+                </form>
             </div>
+
+            <div class="col-11 col-md-5 border mb-3 mt-3 text-center">
+                <h5>Visitanos en Alameda de la Federación 429 - Paraná, Entre Ríos</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13574.879280262421!2d-60.5330475!3d-31.7235477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7439cd8fe877b316!2sInstituto%20Rita%20Riso!5e0!3m2!1ses!2sar!4v1653998204302!5m2!1ses!2sar" width="90%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </main>
 
         <footer>
             <div>
                 <p> <b>iRR©</b> Todos los derechos reservados.</p>
             </div>
-
+        
             <div>
                 <table class="tablaRedes">
                     <tr>

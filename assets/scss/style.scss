@@ -1,58 +1,7 @@
 @import "variables";
 @import "media";
-
-header{  
-    background-color:  $color-fondo;
-}
-
-main{
-    background-color:  $color-fondo;
-}
-
-.navbar{
-    background-image: linear-gradient(to bottom,$color-inicio-gradiente, $color-final-gradiente);
-    .navbar-nav{
-        .nav-link{
-            &:hover{
-                background-color: darkslateblue;
-                color: $color-blanco;
-            }
-            a{
-                text-decoration: none;
-                color: $color-blanco;
-            }
-        }
-    }
-}
-
-footer{
-    grid-area: footer;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    background-image: linear-gradient(to top, $color-inicio-gradiente, $color-final-gradiente);
-}
-
-.iconosRedes{
-    width: 15px;
-}
-
-.danza{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
-    place-items: center;
-    padding-left: 10px;
-}
-
-.danzaTitulo{
-    padding: 10px;
-    font-size: medium;
-    text-align: center;
-}
-
-.danzaTexto{
-    font-size: 15px;
-}
+@import "barra";
+@import "encabezado";
+@import "principales";
+@import "pie";
 

@@ -5,22 +5,18 @@
     gap: 1rem;
     place-items: center;
   }
-
   .danzaTitulo {
     font-size: small;
   }
-
   .barraNavegacion ul li {
     display: block;
     padding: 6px;
     font-size: small;
     color: white;
   }
-
   footer {
     font-size: small;
   }
-
   .iconosRedes {
     width: 10px;
   }
@@ -33,14 +29,6 @@
     margin: 10px;
   }
 }
-header {
-  background-color: rgb(211, 171, 221);
-}
-
-main {
-  background-color: rgb(211, 171, 221);
-}
-
 .navbar {
   background-image: linear-gradient(to bottom, rgb(190, 87, 216), rgb(219, 164, 233));
 }
@@ -53,17 +41,12 @@ main {
   color: white;
 }
 
-footer {
-  grid-area: footer;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-image: linear-gradient(to top, rgb(190, 87, 216), rgb(219, 164, 233));
+header {
+  background-color: rgb(211, 171, 221);
 }
 
-.iconosRedes {
-  width: 15px;
+main {
+  background-color: rgb(211, 171, 221);
 }
 
 .danza {
@@ -82,4 +65,23 @@ footer {
 
 .danzaTexto {
   font-size: 15px;
+}
+
+.qsMain {
+  background-image: url("../images/iRR_8.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+footer {
+  grid-area: footer;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to top, rgb(190, 87, 216), rgb(219, 164, 233));
+}
+
+.iconosRedes {
+  width: 15px;
 }/*# sourceMappingURL=style.css.map */
