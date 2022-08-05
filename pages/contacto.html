@@ -13,7 +13,7 @@
 
 <body class="container-fluid">
 
-    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light p-2">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"> 
             <img src="../assets/images/iRR - logo.png" alt="" width="60" height="30">  
@@ -21,7 +21,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                 <a class="nav-link" href="./quienesSomos.html">Quiénes somos</a>
@@ -38,17 +38,18 @@
     </header>
     
     <main class="container-fluid">
-        <div class="row justify-content-around ">
+        <div class="row justify-content-around">
             <div class="col-11 col-md-5 border mb-3 mt-3">
                 <form action="consulta.php" method="get" >
                     <fieldset class="formularioContacto">
                         <h5>Hacenos tu consulta</h5>
                         <label for="nombre">Nombre: </label>
-                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingresá tu nombre" required>
+                        <input type="text" class="form-control" name="nombre" id="nombre"  required>
                         <label for="apellido">Apellido: </label>
-                        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingresá tu apellido" required>
+                        <input type="text" class="form-control" name="apellido" id="apellido"  required>
                         <label for="genero">Seleccioná el género sobre el cual consultás:</label>
                         <select class="list-group" name="genero" id="genero">
+                            <option value="n"> </option>
                             <option value="b">Ballet</option>
                             <option value="j">Jazz</option>
                             <option value="cm">Comedia Musical</option>
@@ -56,8 +57,7 @@
                             <option value="t">Acrobacias en tela</option>
                         </select>
                         <label for="correo">Correo electrónico: </label>
-                        <input type="email" class="form-control" name="correo" id="correo"
-                            placeholder="Ingresá tu dirección de correo electrónico" required>
+                        <input type="email" class="form-control" name="correo" id="correo" required>
                         <textarea class="form-control mt-2" name="consulta" id="consulta" cols="30" rows="10">Escribí tu consulta</textarea>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-2 mb-2">
                             <input class="btn btn-outline-dark" type="submit" value="Enviar">
@@ -67,9 +67,9 @@
                 </form>
             </div>
 
-            <div class="col-11 col-md-5 border mb-3 mt-3 text-center">
+            <div class="col-11 col-md-5 border mb-3 mt-3 text-center ">
                 <h5>Visitanos en Alameda de la Federación 429 - Paraná, Entre Ríos</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13574.879280262421!2d-60.5330475!3d-31.7235477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7439cd8fe877b316!2sInstituto%20Rita%20Riso!5e0!3m2!1ses!2sar!4v1653998204302!5m2!1ses!2sar" width="90%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com.ar/maps/embed?pb=!1m14!1m8!1m3!1d13574.879280262421!2d-60.5330475!3d-31.7235477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7439cd8fe877b316!2sInstituto%20Rita%20Riso!5e0!3m2!1ses!2sar!4v1653998204302!5m2!1ses!2sar" width="90%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </main>
@@ -82,9 +82,9 @@
             <div>
                 <table class="tablaRedes">
                     <tr>
-                        <td><img src="../assets/images/face-01.png" alt="facebook" class="iconoRedes"></td>
+                        <td><a href="https://facebook.com" title="Facebook" target="_blank"> <img alt="logo de facebook" src="../assets/images/face-01.png" class="iconoRedes"  ></a></td>                     
                         <td>Instituto Rita Riso</td>
-                        <td><img src="../assets/images/insta-01.png" alt="instagram" class="iconoRedes"></td>
+                        <td><a href="https://instagram.com" title="Instagram" target="_blank"> <img alt="logo de instagram" src="../assets/images/insta-01.png" class="iconoRedes" ></a></td>
                         <td>@institutoritariso</td>
                     </tr>
                     <tr>

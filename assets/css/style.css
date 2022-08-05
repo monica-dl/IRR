@@ -1,10 +1,4 @@
 @media (max-width: 768px) {
-  .danza {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    place-items: center;
-  }
   .danzaTitulo {
     font-size: small;
   }
@@ -20,17 +14,17 @@
   .iconosRedes {
     width: 10px;
   }
+  .qsTexto {
+    font-size: large;
+  }
 }
 @media (max-width: 480px) {
-  .danza {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
+  .qsTexto {
+    font-size: medium;
   }
 }
 .navbar {
-  background-image: linear-gradient(to bottom, rgb(190, 87, 216), rgb(219, 164, 233));
+  background-image: linear-gradient(to bottom, rgb(194, 102, 218), rgb(211, 171, 233));
 }
 .navbar .navbar-nav .nav-link:hover {
   background-color: darkslateblue;
@@ -49,12 +43,8 @@ main {
   background-color: rgb(211, 171, 221);
 }
 
-.danza {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  place-items: center;
-  padding-left: 10px;
+h4 {
+  text-align: center;
 }
 
 .danzaTitulo {
@@ -65,12 +55,25 @@ main {
 
 .danzaTexto {
   font-size: 15px;
+  text-align: justify;
 }
 
-.qsMain {
-  background-image: url("../images/iRR_8.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.qsTexto {
+  font-family: Arial;
+  font-size: larger;
+}
+
+.qsFoto {
+  border-radius: 50%;
+}
+
+.qsFoto:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.inicial {
+  display: flex;
 }
 
 footer {
@@ -79,7 +82,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to top, rgb(190, 87, 216), rgb(219, 164, 233));
+  background-image: linear-gradient(to top, rgb(194, 102, 218), rgb(211, 171, 233));
 }
 
 .iconosRedes {

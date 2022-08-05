@@ -1,15 +1,8 @@
 @media (max-width:768px){
 
-    .danza{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-        place-items: center;        
-    }
-
     .danzaTitulo{
         font-size: small;
-    }
+    } 
 
     .barraNavegacion ul li{
         display: block;
@@ -25,14 +18,15 @@
     .iconosRedes{
         width: 10px;
     }
+
+    .qsTexto{
+        font-size: large;
+    }
 }
 
 @media (max-width:480px){
 
-    .danza{
-        display: block;
-        align-items: center;
-        justify-content: center;
-        margin: 10px;       
+    .qsTexto{
+        font-size: medium;
     }
 }

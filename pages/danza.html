@@ -13,7 +13,7 @@
 </head>
 <body class="container-fluid">
 
-    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light p-2">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"> 
             <img src="../assets/images/iRR - logo.png" alt="" width="60" height="30">  
@@ -21,7 +21,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                 <a class="nav-link" href="./quienesSomos.html">Quiénes somos</a>
@@ -39,49 +39,80 @@
 
     <main class="container-fluid">
 
-        <h2 class="text-center">¡Vení a bailar con nosotros!</h2>                  
-        <div class="danza">
-            
-            <div class="inicialImagen" >
-                <img src="../assets/images/iRR_BalletInicial.jpg" width="70%" alt="Imagen publicitaria de la disciplina ballet inicial en el instituto Rita Riso.">
-            </div>
-                
-            <div  class="danzaTexto">
-                <h4>Iniciación a la danza</h4>
-                <p>A través del juego, las niñas dan sus primeros pasos en la danza clásica. 
-                    El ballet colabora en el desarrollo de la sensibilidad, la reducción de síntomas de estrés y ansiedad.
-                    A partir de los 3 años.
-                 </p>
-            </div>              
+        <h2 class="text-center py-4">¡Vení a bailar con nosotros!</h2> 
+
+        <div class="row">
+            <div class=" col-1"> </div>            
+            <div class=" col-10">            
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-2 d-flex justify-content-around ">
+                    <div class="card border-0 mb-3 bg-transparent" >
+                        <div class="row g-0 ">
+                        <div class="col-md-4">
+                            <img src="../assets/images/iRR_BalletInicial.jpg" class="inicialImagen rounded img-fluid align-items-center" alt="Imagen publicitaria de la disciplina ballet inicial en el instituto Rita Riso.">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="danzaTexto card-body">
+                            <h4 class="card-title">Iniciación a la danza</h4>
+                            <p class="card-text">A través del juego, las niñas dan sus primeros pasos en la danza clásica. 
+                                El ballet colabora en el desarrollo de la sensibilidad, la reducción de síntomas de estrés y ansiedad.
+                                A partir de los 3 años.
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 mb-3 bg-transparent" >
+                        <div class="row g-0 ">
+                        <div class="col-md-4">
+                            <img src="../assets/images/iRR_6.jpg" class="inicialImagen rounded img-fluid align-items-center" alt="Imagen publicitaria de la disciplina ballet del instituto Rita Riso.">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="danzaTexto card-body">
+                            <h4 class="card-title">Ballet</h4>
+                            <p class="card-text">Dictamos la carrera de bailarina clásica. En el instituto, preparamos a las estudiantes durante todo el año para rendir con maestros de Buenos Aires que vienen a Paraná para evaluarlas. 
+                                Además, a lo largo del ciclo lectivo, organizamos presentaciones en el teatro para que nuestros artistas puedan hacer lo que más les gusta, ¡brillar en el escenario!.
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                     
-            <div class="balletImagen" >
-                <img  src="../assets/images/iRR_6.jpg" width="70%" alt="Foto de una muestra de ballet de las alumnas del instituto Rita Riso.">
-            </div>    
-
-            <div class="danzaTexto">
-                <h4>Ballet</h4>
-                <p>Podés cursar la carrera de bailarina en el instituto. Preparamos a las estudiantes durante todo el año para rendir con maestros de Buenos Aires que vienen a Paraná para evaluarlas.</p>                 
-            </div>
-
-            <div class="jazzImagen" >
-                <img  src="../assets/images/iRR_JazzAdultos.jpg" width="70%" alt="Imagen publicitaria de la disciplina jazz para adultos en el instituto Rita Riso.">
-            </div>
-
-            <div class="danzaTexto">
-                <h4>Jazz para adultos</h4>
-                <p>Si tenés más de 30 años, y amás bailar, tenemos una propuesta para vos! </p>
-            </div>
+                    <div class="card border-0 mb-3 bg-transparent" >
+                        <div class="row g-0 ">
+                        <div class="col-md-4">
+                            <img src="../assets/images/iRR_Jazz.jpg" class="inicialImagen rounded img-fluid align-items-center" alt="Imagen publicitaria de la disciplina danza jazz en el instituto Rita Riso.">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="danzaTexto card-body">
+                            <h4 class="card-title">Jazz</h4>
+                            <p class="card-text">La danza jazz es creativa, apasionada y apta para todas las personas. Implica un reconocimiento total del cuerpo, aumenta la capacidad respiratoria y cardíaca y mejora el sentido del ritmo, la agilidad, el control del cuerpo, la memoria y el razonamiento.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                     
-            <div class="urbanoImagen" >
-                <img  src="../assets/images/iRR_Urbano.jpg" width="70%" alt="Imagen publicitaria de la disciplina ritmos urbanos en el instituto Rita Riso.">
-            </div>
+                    <div class="card border-0 mb-3 bg-transparent" >
+                        <div class="row g-0 ">
+                        <div class="col-md-4">
+                            <img src="../assets/images/iRR_Urbano.jpg" class="inicialImagen rounded img-fluid align-items-center" alt="Imagen publicitaria de la disciplina ritmos urbanos en el instituto Rita Riso.">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="danzaTexto card-body">
+                            <h4 class="card-title">Ritmos Urbanos</h4>
+                            <p class="card-text">Coreos divertidas y con mucha energía! Bailando motivamos el sentido del ritmo, la expresión corporal y la motricidad de niñas, niños y adolescentes.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>                
+                </div>
 
-            <div class="danzaTexto">
-                <h4>Ritmos Urbanos</h4>
-                <p>Coreos divertidas y con mucha energía! Bailando motivamos el sentido del ritmo, la expresión corporal y la motricidad de niñas, niños y adolescentes.</p>
             </div>
-                
+            <div class="row col-1"> </div> 
         </div>
+
+
     </main>
 
     <footer>
@@ -92,9 +123,9 @@
         <div>
             <table class="tablaRedes">
                 <tr>
-                    <td><img src="../assets/images/face-01.png" alt="facebook" class="iconoRedes"></td>
+                    <td><a href="https://facebook.com" title="Facebook" target="_blank"> <img alt="logo de facebook" src="../assets/images/face-01.png" class="iconoRedes"  ></a></td>                     
                     <td>Instituto Rita Riso</td>
-                    <td><img src="../assets/images/insta-01.png" alt="instagram" class="iconoRedes"></td>
+                    <td><a href="https://instagram.com" title="Instagram" target="_blank"> <img alt="logo de instagram" src="../assets/images/insta-01.png" class="iconoRedes" ></a></td>
                     <td>@institutoritariso</td>
                 </tr>
                 <tr>

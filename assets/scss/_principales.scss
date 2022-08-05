@@ -2,12 +2,8 @@ main{
     background-color:  $color-fondo;
 }
 
-.danza{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
-    place-items: center;
-    padding-left: 10px;
+h4{
+    text-align: center;
 }
 
 .danzaTitulo{
@@ -18,9 +14,24 @@ main{
 
 .danzaTexto{
     font-size: 15px;
+    text-align: justify;
 }
-.qsMain{
-    background-image:url("../images/iRR_8.jpg");  
-    background-repeat: no-repeat;
-    background-size: 100%;  
+
+.qsTexto{
+    font-family:Arial; 
+    font-size: larger;
+}
+
+.qsFoto{
+    border-radius: 50%;  
+    
+}
+
+.qsFoto:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.inicial{
+    display: flex;
 }
